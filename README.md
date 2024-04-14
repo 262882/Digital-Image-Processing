@@ -6,8 +6,11 @@
 
 ## Decompress data
 
-`tar xf data/<file>`
+```
+cd data
+tar xf <archive.tar.xz>
+```
 
 ## Compress additional data
 
-`tar cfJ <archive.tar.xz> <files>`
+`tar cfa <archive.tar.xz> <files>`
