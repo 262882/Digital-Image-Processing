@@ -6,11 +6,8 @@
 
 ## Decompress data
 
-```
-cd data
-tar xf <archive.tar.xz>
-```
+`bash decompress_Data.sh`
 
-## Compress additional data
+## Compressing additional data
 
 `tar cfa <archive.tar.xz> <files>`
